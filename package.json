@@ -1,0 +1,22 @@
+{
+  "name": "express-reactive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
